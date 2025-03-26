@@ -148,6 +148,7 @@ body {
     .card{
         max-width: 350px;
         min-width: 350px;
+        position: static;
     }
     .content h1{
         font-size: 1.8rem;
