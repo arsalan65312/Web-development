@@ -1,3 +1,3 @@
 # Web-development
 
-i am focused to learn web-development because i love to create websites.
+I am focused on learning web development because I love to create websites. I love to build apps that do something.
