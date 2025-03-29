@@ -3,12 +3,15 @@
 
 @media (max-width:1250px) {
 
-    body{
+    body {
         overflow-x: hidden;
     }
+
     /* ---------------- navbar ------------------ */
     .navbar {
         padding: 5vw 2.5vw;
+        position: static;
+        background-color: black;
     }
 
     .logo h1 {
@@ -110,7 +113,7 @@
 
     .box {
         min-width: 90vw;
-        min-height: 20vh;  
+        min-height: 20vh;
         gap: 1rem;
         padding: 1rem 0;
     }
@@ -122,70 +125,86 @@
     .box h1 {
         font-size: 1.4rem;
     }
-    .box p{
+
+    .box p {
         width: 70vw;
     }
 
 
 
- /* ---------------- section-4 | Contact Details ------------------ */
+    /* ---------------- section-4 | Contact Details ------------------ */
 
-    .section-4{
+    .section-4 {
         height: 90vh;
         width: 100vw;
     }
+
     .contact-title {
         font-size: 2.5rem;
     }
-    .social-container{
+
+    .social-container {
         flex-direction: column;
         gap: 1.5rem;
     }
-    .main-social{
-       display: none;
+
+    .main-social {
+        display: none;
     }
-    .social-info{
+
+    .social-info {
         align-items: center;
     }
-    .social-links img{
+
+    .social-links img {
         width: 7vw;
         background-color: var(--primary-color-1);
     }
-    .form{
+
+    .form {
         margin-top: 1rem;
     }
-    form input{
+
+    form input {
         min-width: 90vw;
         color: aliceblue;
     }
-    textarea{
+
+    textarea {
         min-width: 90vw;
         max-width: 90vw;
         color: var(--primary-color-2);
     }
-    footer{
+
+    footer {
         width: 100vw;
     }
 }
-@media (max-height:600px) {
-    .section-2{
+
+@media (max-height:700px) {
+    .section-2 {
         height: 130vh;
-    }   
+    }
+
     .section-3 {
         height: 180vh;
     }
-    .section-4{
+
+    .section-4 {
         height: 110vh;
     }
 }
+
 @media (min-height:1000px) {
-    .section-2{
+    .section-2 {
         height: 100vh;
-    }   
+    }
+
     .section-3 {
         height: 100vh;
     }
-    .section-4{
+
+    .section-4 {
         height: 100vh;
     }
 }
