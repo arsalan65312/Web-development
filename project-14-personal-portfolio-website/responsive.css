@@ -1,0 +1,191 @@
+/* for mobile resposive */
+
+
+@media (max-width:1250px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    /* ---------------- navbar ------------------ */
+    .navbar {
+        padding: 5vw 2.5vw;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    button {
+        padding: 7px 1rem;
+    }
+
+
+    /* ------------- section-1 | Intro ------------------ */
+
+    .section-1 {
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .section-1 img {
+        margin-top: 3rem;
+        width: 70vw;
+        border-radius: 1000px;
+        margin-right: 1.5rem;
+    }
+
+    .intro {
+        margin-top: -2rem;
+        margin-right: 1rem;
+        align-items: center;
+        order: 2;
+        gap: 5px;
+
+    }
+
+    .greeting {
+        font-size: 15px;
+    }
+
+    .intro h1 {
+        font-size: 2.7rem;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 0.9rem;
+    }
+
+
+
+
+    /* ---------------- section-2 | About Me ------------------ */
+    .section-2 {
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        gap: 1rem;
+    }
+
+    .section-2 img {
+        height: 40vh;
+    }
+
+    .about-me {
+        width: 80vw;
+        align-items: center;
+    }
+
+    .about-me h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-me p {
+        width: 80vw;
+        text-align: center;
+    }
+
+
+    /* ---------------- section-3 | Portfolio ------------------ */
+
+    .section-3 {
+        height: 140vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .portfolio-title {
+        align-items: center;
+        font-size: 2.5rem;
+    }
+
+    .box-container {
+        flex-direction: column;
+    }
+
+    .box {
+        min-width: 90vw;
+        min-height: 20vh;  
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .box img {
+        width: 10vw;
+    }
+
+    .box h1 {
+        font-size: 1.4rem;
+    }
+    .box p{
+        width: 70vw;
+    }
+
+
+
+ /* ---------------- section-4 | Contact Details ------------------ */
+
+    .section-4{
+        height: 90vh;
+        width: 100vw;
+    }
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    .social-container{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .main-social{
+       display: none;
+    }
+    .social-info{
+        align-items: center;
+    }
+    .social-links img{
+        width: 7vw;
+        background-color: var(--primary-color-1);
+    }
+    .form{
+        margin-top: 1rem;
+    }
+    form input{
+        min-width: 90vw;
+        color: aliceblue;
+    }
+    textarea{
+        min-width: 90vw;
+        max-width: 90vw;
+        color: var(--primary-color-2);
+    }
+    footer{
+        width: 100vw;
+    }
+}
+@media (max-height:800px) {
+    .section-2{
+        height: 130vh;
+    }   
+    .section-3 {
+        height: 180vh;
+    }
+    .section-4{
+        height: 110vh;
+    }
+}
+@media (min-height:1000px) {
+    .section-2{
+        height: 100vh;
+    }   
+    .section-3 {
+        height: 100vh;
+    }
+    .section-4{
+        height: 100vh;
+    }
+}
